@@ -1,0 +1,157 @@
+{
+  "module_version": "2.5R-frozen",
+  "description": "Frozen direct adult OA bridge gene sets for Layer 2.5R. JSON syntax is used intentionally so the file remains valid YAML 1.2.",
+  "interpretation_guardrails": [
+    "Use for transcriptomic portability testing only.",
+    "Do not claim adult OA is JIA-like.",
+    "Do not claim direct validation of MyIS-OA-Tx from serum or urine biomarkers.",
+    "Use cautious language such as conserved myeloid-inflammatory axis and pain-relevant tissue state."
+  ],
+  "modules": [
+    {
+      "name": "MHCII_antigen_presentation_module",
+      "tier": "primary",
+      "focus": "MHC-II / antigen-presentation myeloid module",
+      "genes": [
+        "HLA-DRA",
+        "HLA-DRB1",
+        "HLA-DPA1",
+        "HLA-DPB1",
+        "HLA-DQA1",
+        "HLA-DQB1",
+        "CD74",
+        "HLA-DMA",
+        "HLA-DMB",
+        "CIITA"
+      ]
+    },
+    {
+      "name": "SPP1_macrophage_module",
+      "tier": "secondary",
+      "focus": "SPP1 macrophage module",
+      "genes": [
+        "SPP1",
+        "APOE",
+        "GPNMB",
+        "TREM2",
+        "LGALS3",
+        "CHIT1",
+        "CTSB",
+        "CTSD",
+        "FABP5",
+        "CCL2"
+      ]
+    },
+    {
+      "name": "S100A8_A9_myeloid_module",
+      "tier": "secondary",
+      "focus": "S100A8/S100A9 myeloid module",
+      "genes": [
+        "S100A8",
+        "S100A9",
+        "FCN1",
+        "VCAN",
+        "IL1B",
+        "CXCL8",
+        "CXCL2",
+        "TYMP",
+        "NFKBIA",
+        "PLAUR"
+      ]
+    },
+    {
+      "name": "IL1_IL6_TNF_response_module",
+      "tier": "secondary",
+      "focus": "IL1/IL6/TNF-response module",
+      "genes": [
+        "IL1B",
+        "IL6",
+        "TNF",
+        "PTGS2",
+        "CCL2",
+        "CXCL8",
+        "NFKBIA",
+        "SOCS3",
+        "TNFAIP3",
+        "BCL3"
+      ]
+    },
+    {
+      "name": "complement_coagulation_module",
+      "tier": "secondary",
+      "focus": "complement/coagulation module",
+      "genes": [
+        "C1QA",
+        "C1QB",
+        "C1QC",
+        "C3",
+        "CFB",
+        "SERPINE1",
+        "F3",
+        "PLAUR",
+        "CLU",
+        "VTN"
+      ]
+    },
+    {
+      "name": "CNBP_related_module",
+      "tier": "sensitivity_only",
+      "focus": "CNBP-related module",
+      "genes": [
+        "CNBP",
+        "NFKBIA",
+        "IL1B",
+        "TNF",
+        "PTGS2",
+        "CCL2",
+        "JUN",
+        "FOS",
+        "CXCL2",
+        "CXCL8"
+      ]
+    },
+    {
+      "name": "IFN_response_module",
+      "tier": "sensitivity_only",
+      "focus": "IFN-response module",
+      "genes": [
+        "IFIT1",
+        "IFIT2",
+        "IFIT3",
+        "ISG15",
+        "MX1",
+        "OAS1",
+        "IFI44L",
+        "IFI6",
+        "CXCL10",
+        "STAT1"
+      ]
+    }
+  ],
+  "negative_control": {
+    "name": "housekeeping_like_negative_control",
+    "genes": [
+      "ACTB",
+      "GAPDH",
+      "RPLP0",
+      "EEF1A1",
+      "B2M",
+      "RPS18",
+      "RPL13A",
+      "HPRT1",
+      "UBC",
+      "PPIA"
+    ]
+  },
+  "composite_definition": {
+    "name": "MyIS_OA_Tx_composite",
+    "includes": [
+      "MHCII_antigen_presentation_module",
+      "SPP1_macrophage_module",
+      "S100A8_A9_myeloid_module",
+      "IL1_IL6_TNF_response_module",
+      "complement_coagulation_module"
+    ],
+    "tier": "exploratory_composite"
+  }
+}
