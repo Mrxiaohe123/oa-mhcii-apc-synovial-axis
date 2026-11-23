@@ -4,7 +4,6 @@ Manuscript: **Antigen-presentation enrichment in osteoarthritis synovium reflect
 
 Revision identifier: **RMD Open rmdopen-2026-007735**
 
-This folder is a version-namespaced author-review upload copy for the public repository `Mrxiaohe123/oa-mhcii-apc-synovial-axis`. Upload the complete `revisions/rmdopen-2026-007735-major-revision/` folder under `revisions/`; do not merge its contents into the repository root. It contains selected analysis scripts, public-data metadata, aggregate reviewer-requested evidence tables and provenance records. No Git commit, push, tag or release was performed.
 
 ## Scope
 
