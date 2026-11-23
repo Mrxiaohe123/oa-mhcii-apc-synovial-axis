@@ -1,0 +1,9 @@
+sample,disease_group,age,sex
+Normal_1B_count,control,,
+Normal_3B_count,control,,
+Normal_4A_count,control,,
+Osteoarthritis_1B_count,OA,,
+Osteoarthritis_2B_count,OA,,
+Osteoarthritis_3B_count,OA,,
+Osteoarthritis_5B_count,OA,,
+Osteoarthritis_8A_count,OA,,

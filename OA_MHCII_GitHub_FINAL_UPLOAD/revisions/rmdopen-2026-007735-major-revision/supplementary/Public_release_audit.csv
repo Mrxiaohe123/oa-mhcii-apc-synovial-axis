@@ -1,0 +1,9 @@
+item,status,evidence
+public GitHub URL or fixed remote,UNVERIFIED,No URL/remote found in the local archive; workspace is not a Git repository.
+public-ready bulk script,PRESENT_IN_LOCAL_STAGING_ONLY,02_GITHUB_REPOSITORY_READY/03_scripts/01_bulk_disease_state_bridge/01_01_bulk_disease_state_bridge.py
+GSE12021 correction script,MISSING_FROM_PUBLIC_READY_BUNDLE,Present in 05_REPRODUCIBILITY/CODE_RELEASE and source archive; not listed in public-ready script inventory.
+frozen primary input manifests/source tables,PARTIAL,"Public-ready bundle contains selected outputs/tables, but exact corrected GSE12021 crosswalk and all phase4f input manifests are not verified as public."
+Major Revision outputs,NOT_VERIFIED_PUBLIC,revision_R1_major2/3/4/6 are outside the staged public-ready tree.
+figure source data,PARTIAL,Selected figures and output inventories are staged; complete source-driven Figure 1-6 evidence cannot be confirmed from a public URL.
+environment/session records,PARTIAL,Local session logs exist; public-ready package has no confirmed fixed environment lock/commit or public URL.
+release/commit identifier,UNVERIFIED,"No actual public repository URL, commit, tag, or release was confirmed; placeholders remain in data/code availability files."
