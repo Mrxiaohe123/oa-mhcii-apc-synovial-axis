@@ -1,0 +1,3 @@
+"reference","n_cohorts","mean_delta","sd_delta","t_ci_low","t_ci_high","bootstrap_percentile_low","bootstrap_percentile_high","attenuation_n","no_change_n","increase_n","bootstrap_reps","ci_method","bootstrap_method"
+"Reference_A",8,0.172990707065825,0.435354050452315,-0.190974387428547,0.536955801560197,-0.127310749920344,0.438935188656477,5,0,3,20000,"equal-weight cohort mean; t(7)","cohort resampling only; no inner sample bootstrap"
+"Reference_Bv2",8,0.180632693750742,0.234940494980213,-0.0157824753907558,0.37704786289224,0.0354076405392054,0.338648269761635,5,0,3,20000,"equal-weight cohort mean; t(7)","cohort resampling only; no inner sample bootstrap"

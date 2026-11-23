@@ -1,0 +1,11 @@
+sample,disease_group,platform,characteristics,tissue,age,sex
+GSM34379,control,GPL91,sample 1: | age: 69 | gender: female | sample 2:  | age: 64 | gender: male | sample 3: | age: 75 | gender: male | sample 4: | age: 58 | gender: male,synovium,69,female
+GSM34383,control,GPL91,sample 1: | age: 58 | gender: male | sample 2 | age: 58 | gender: male | sample 3: | age: 57 | gender: male | sample 4 | age: unknown | gender: unknown,synovium,58,male
+GSM34385,control,GPL91,sample 1: | age: 32 | gender: female | sample 2 | age: 47 | gender: male | sample 3 | age: 75 | gender: female,synovium,32,female
+GSM34388,control,GPL91,sample 1: | age: 46 | gender: male | sample 2 | age: unknown | gender: unknown,synovium,46,male
+GSM34391,control,GPL91,sample 1: | age: 58 | gender: male | sample 2 | age: unknown | gender: unknown,synovium,58,male
+GSM34393,OA,GPL91,sample 1: | age: 60 | gender: female | sample 2 | age: 77 | gender: male,synovium,60,female
+GSM34394,OA,GPL91,sample 1: | age: 58 | gender: female | sample 2 | age: 77 | gender: male,synovium,58,female
+GSM34395,OA,GPL91,age: 86 | gender: female,synovium,86,female
+GSM34396,OA,GPL91,age: 69 | gender: female,synovium,69,female
+GSM34397,OA,GPL91,age: 68 | gender: female,synovium,68,female

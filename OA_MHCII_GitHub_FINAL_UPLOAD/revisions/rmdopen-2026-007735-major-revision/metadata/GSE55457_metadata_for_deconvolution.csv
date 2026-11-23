@@ -1,0 +1,21 @@
+sample,disease_group,platform,characteristics,tissue,age,sex
+GSM1337304,control,GPL96,gender: male | age: 61 | clinical status: normal control,synovium,61,male
+GSM1337305,control,GPL96,gender: male | age: 64 | clinical status: normal control,synovium,64,male
+GSM1337306,control,GPL96,gender: female | age: 78 | clinical status: normal control,synovium,78,female
+GSM1337307,control,GPL96,gender: male | age: 65 | clinical status: normal control,synovium,65,male
+GSM1337308,control,GPL96,gender: male | age: 53 | clinical status: normal control,synovium,53,male
+GSM1337309,control,GPL96,gender: male | age: 68 | clinical status: normal control,synovium,68,male
+GSM1337310,control,GPL96,gender: female | age: 29 | clinical status: normal control,synovium,29,female
+GSM1337311,control,GPL96,gender: male | age: 17 | clinical status: normal control,synovium,17,male
+GSM1337312,control,GPL96,gender: male | age: 39 | clinical status: normal control,synovium,39,male
+GSM1337313,control,GPL96,gender: male | age: 36 | clinical status: normal control,synovium,36,male
+GSM1337327,OA,GPL96,gender: female | age: 77 | clinical status: osteoarthritis,synovium,77,female
+GSM1337328,OA,GPL96,gender: female | age: 71 | clinical status: osteoarthritis,synovium,71,female
+GSM1337329,OA,GPL96,gender: female | age: 76 | clinical status: osteoarthritis,synovium,76,female
+GSM1337330,OA,GPL96,gender: female | age: 61 | clinical status: osteoarthritis,synovium,61,female
+GSM1337331,OA,GPL96,gender: female | age: 75 | clinical status: osteoarthritis,synovium,75,female
+GSM1337332,OA,GPL96,gender: male | age: 78 | clinical status: osteoarthritis,synovium,78,male
+GSM1337333,OA,GPL96,gender: male | age: 69 | clinical status: osteoarthritis,synovium,69,male
+GSM1337334,OA,GPL96,gender: female | age: 71 | clinical status: osteoarthritis,synovium,71,female
+GSM1337335,OA,GPL96,gender: female | age: 80 | clinical status: osteoarthritis,synovium,80,female
+GSM1337336,OA,GPL96,gender: female | age: 66 | clinical status: osteoarthritis,synovium,66,female

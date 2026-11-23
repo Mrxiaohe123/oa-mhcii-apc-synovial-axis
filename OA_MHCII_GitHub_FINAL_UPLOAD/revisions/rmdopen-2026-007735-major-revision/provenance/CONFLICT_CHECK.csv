@@ -1,0 +1,9 @@
+relative_path,status,basis
+README.md,POTENTIAL_CONFLICT,Target repository root already has a README-level documentation layer; author must compare before replacing.
+DATA_ACCESS.md,CONFIRMED_CONFLICT,Target repository page exposes DATA_ACCESS.md; merge rather than blindly overwrite.
+scripts/,POTENTIAL_CONFLICT,Target repository directory contents require manual check before creating or merging a scripts directory.
+config/,REVIEW_REQUIRED,No confirmed root-level conflict from the visible repository page.
+metadata/,REVIEW_REQUIRED,No confirmed root-level conflict from the visible repository page.
+supplementary/,REVIEW_REQUIRED,No confirmed root-level conflict from the visible repository page.
+provenance/,REVIEW_REQUIRED,No confirmed root-level conflict from the visible repository page.
+docs/,REVIEW_REQUIRED,No confirmed root-level conflict from the visible repository page.
